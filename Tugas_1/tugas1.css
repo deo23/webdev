@@ -1,0 +1,49 @@
+/* Define the styles for each colored rectangle */
+.rectangle {
+  margin: 0px;
+  float: left;
+}
+
+/* Define different colors for each rectangle */
+#rectangle1 {
+  background-color: blue;
+  width: 350px;
+  height: 350px;
+}
+
+#rectangle2 {
+  background-color: black;
+  width: 1150px;
+  height: 200px;
+}
+
+#rectangle3 {
+  background-color: brown;
+  width: 610px;
+  height: 150px;
+}
+
+#rectangle4 {
+  background-color: green;
+  width: 250px;
+  height: 300px;
+}
+
+#rectangle5 {
+  background-color: pink;
+  width: 290px;
+  height: 150px;
+}
+
+#rectangle6 {
+  background-color: cyan;
+  width: 350px;
+  height: 100px;
+}
+
+/* Clear the float to prevent layout issues */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

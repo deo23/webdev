@@ -1,0 +1,130 @@
+body {
+}
+
+.body-margin {
+  margin-left: 200px; /* Adjust the margin size as needed */
+  margin-right: 200px; /* Adjust the margin size as needed */
+}
+
+.container.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.padding1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.image-container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content-container {
+  box-sizing: border-box;
+  text-align: center;
+
+  width: 33.333333%;
+}
+
+.bg-grey {
+  background-color: #f3f4f6;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Custom color for "easy to follow design course" */
+.custom-color {
+  color: #ff5722; /* You can change this color code */
+}
+
+/* Style for the text outside the header */
+.custom-text {
+  font-size: 58px; /* Adjust the font size as needed */
+  text-align: center;
+  justify-content: center;
+}
+
+.custom-text2 {
+  font-size: 21px; /* Adjust the font size as needed */
+  text-align: center;
+  justify-content: center;
+}
+
+.grey-text {
+  color: #828d9b;
+}
+
+.center-text {
+  text-align: center; /* Rata tengah horizontal */
+  display: flex;
+  justify-content: center; /* Rata tengah horizontal */
+  align-items: center; /* Rata tengah vertikal */
+}
+
+.custom-content-margin {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.custom-content-margin2 {
+  padding-left: 190px;
+  padding-right: 190px;
+}
+
+.margin-name {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.email-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.email-input {
+  width: 500px;
+  height: 45px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.error {
+  border: 2px solid red;
+}
+
+.button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.placeholder-text {
+  color: #999;
+}

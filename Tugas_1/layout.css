@@ -1,0 +1,133 @@
+.container {
+  height: 97vh;
+  display: grid;
+  grid-template-columns: [first] 33% [second] 33% [thrid] auto [end] auto;
+  grid-template-rows: [start] 16.6% [row2] 16.6% [row3] 16.6%[row4] 16.6% [row5] 16.6% [row6] auto;
+  margin: 10px;
+}
+
+.border {
+  border: 2px solid black;
+}
+
+.boxBiru {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-color: #0070c0;
+}
+
+.boxHitam {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: black;
+}
+
+.boxCoklat {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: #806000;
+}
+
+.boxPutih {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  background-color: white;
+}
+
+.boxPink {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: #ff99ff;
+}
+
+.boxBiruMuda {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  background-color: #0099ff;
+}
+
+.boxKuning {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  background-color: yellow;
+}
+
+.boxMerah {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  background-color: red;
+}
+
+.boxHijau {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  background-color: green;
+}
+
+.boxUngu {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  background-color: purple;
+}
+
+.boxOrange {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  background-color: orange;
+}
+
+.boxAbu {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 5;
+  grid-row-end: 7;
+  background-color: #999999;
+}
+
+.font-putih {
+  margin: 0px;
+  float: left;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0px;
+  color: white;
+}
+
+.font-hitam {
+  margin: 0px;
+  float: left;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0px;
+  color: black;
+}

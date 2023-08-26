@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Four Colored Rectangles</title>
+
+    <style>
+      /* Define the styles for each colored rectangle */
+      .rectangle {
+        margin: 0px;
+        float: left;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 0px;
+      }
+
+      .font-putih {
+        color: white;
+      }
+
+      .font-hitam {
+        color: black;
+      }
+      .bg-putih {
+        background-color: white;
+      }
+
+      .bg-hitam {
+        background-color: black;
+      }
+
+      .bg-biru {
+        background-color: blue;
+      }
+
+      .bg-biru-muda {
+        background-color: #0099ff;
+      }
+
+      .bg-coklat {
+        background-color: brown;
+      }
+
+      .bg-pink {
+        background-color: pink;
+      }
+
+      .bg-kuning {
+        background-color: yellow;
+      }
+
+      .bg-merah {
+        background-color: red;
+      }
+
+      .bg-hijau {
+        background-color: green;
+      }
+
+      .bg-ungu {
+        background-color: purple;
+      }
+
+      .bg-orange {
+        background-color: orange;
+      }
+
+      .bg-abu {
+        background-color: #999999;
+      }
+
+      /* Define different colors for each rectangle */
+      #rectangle1 {
+        width: 350px;
+        height: 350px;
+        display: flex;
+      }
+
+      #rectangle2 {
+        width: 1150px;
+        height: 200px;
+      }
+
+      #rectangle3 {
+        width: 610px;
+        height: 150px;
+      }
+
+      #rectangle4 {
+        width: 250px;
+        height: 250px;
+      }
+
+      #rectangle5 {
+        width: 290px;
+        height: 100px;
+      }
+
+      #rectangle6 {
+        width: 290px;
+        height: 150px;
+      }
+
+      #rectangle7 {
+        width: 350px;
+        height: 100px;
+      }
+
+      #rectangle8 {
+        width: 610px;
+        height: 200px;
+      }
+
+      #rectangle9 {
+        width: 540px;
+        height: 200px;
+      }
+
+      #rectangle10 {
+        width: 610px;
+        height: 100px;
+      }
+
+      .margintop-min100 {
+        margin-top: -100px;
+      }
+
+      .marginleft-min350 {
+        margin-left: -350px;
+      }
+
+      .margintop-plus100 {
+        margin-top: 100px;
+      }
+
+      .marginleft-plus350 {
+        margin-left: 350px;
+      }
+
+      /* Clear the float to prevent layout issues */
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Create the four colored rectangles with different widths and lengths -->
+    <div id="rectangle1" class="rectangle bg-biru font-hitam">Biru Tua</div>
+    <div id="rectangle2" class="rectangle bg-hitam font-putih">Hitam</div>
+    <div id="rectangle3" class="rectangle bg-coklat font-putih">Coklat</div>
+    <div id="rectangle4" class="rectangle bg-putih">Putih</div>
+    <div id="rectangle5" class="rectangle bg-pink font-hitam">Pink</div>
+    <div id="rectangle6" class="rectangle bg-biru-muda font-hitam">Biru Muda</div>
+    <div id="rectangle7" class="rectangle bg-kuning font-hitam margintop-min100">Kuning</div>
+    <div id="rectangle7" class="rectangle bg-merah font-putih">Merah</div>
+    <div id="rectangle7" class="rectangle bg-hijau font-putih marginleft-min350 margintop-plus100">Hijau</div>
+    <div id="rectangle8" class="rectangle bg-ungu font-putih margintop-min100">Ungu</div>
+    <div id="rectangle9" class="rectangle bg-orange font-putih bg-abu">Abu</div>
+    <div id="rectangle10" class="rectangle bg-orange font-hitam marginleft-plus350 margintop-min100">Orange</div>
+
+    <!-- Add a clearfix element to clear the float -->
+    <div class="clearfix"></div>
+  </body>
+</html>
