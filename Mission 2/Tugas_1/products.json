@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Monde Pie Bis",
+    "price": 10000,
+    "image": "./images/gambar_produk1.png"
+  },
+  {
+    "id": 2,
+    "name": "Lotus Biscoff",
+    "price": 15000,
+    "image": "./images/gambar_produk2.png"
+  },
+  {
+    "id": 3,
+    "name": "Momogi",
+    "price": 5000,
+    "image": "./images/gambar_produk3.png"
+  },
+  {
+    "id": 4,
+    "name": "Migi",
+    "price": 7000,
+    "image": "./images/gambar_produk4.png"
+  },
+  {
+    "id": 5,
+    "name": "Nabati",
+    "price": 4000,
+    "image": "./images/gambar_produk5.png"
+  },
+  {
+    "id": 6,
+    "name": "Aries",
+    "price": 2000,
+    "image": "./images/gambar_produk6.png"
+  }
+]
